@@ -6,7 +6,7 @@ with [PyTorch](http://pytorch.org/).
 > \$ ./download_speech_commands_dataset.sh  
 
 # Training and evaluation
-> \$ ./train.sh
+> \$ ./train.sh  
 > \$ ./eval.sh
 
 # General
