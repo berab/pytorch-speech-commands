@@ -1,0 +1,4 @@
+pytorch=0.3
+librosa==0.5.1
+torchnet
+tensorboardX
