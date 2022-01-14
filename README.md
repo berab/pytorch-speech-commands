@@ -10,9 +10,9 @@ with [PyTorch](http://pytorch.org/).
 > \$ ./eval.sh
 
 # General
-We, [xuyuan](https://github.com/xuyuan) and [tugstugi](https://github.com/tugstugi), have participated
+[xuyuan](https://github.com/xuyuan) and [tugstugi](https://github.com/tugstugi), have participated
 in the Kaggle competition [TensorFlow Speech Recognition Challenge](https://www.kaggle.com/c/tensorflow-speech-recognition-challenge)
-and reached the 10-th place. This repository contains a simplified and cleaned up version of our team's code.
+and reached the 10-th place.
 
 # Features
 * `1x32x32` mel-spectrogram as network input
