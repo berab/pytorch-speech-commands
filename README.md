@@ -1,6 +1,14 @@
 Convolutional neural networks for [Google speech commands data set](https://research.googleblog.com/2017/08/launching-speech-commands-dataset.html)
 with [PyTorch](http://pytorch.org/).
 
+#First to do
+> \$ pip install -r requirements.txt
+> \% ./download_speech_commands_dataset.sh
+
+#Training and evaluation
+> \$ ./train.sh
+> \$ ./eval.sh
+
 # General
 We, [xuyuan](https://github.com/xuyuan) and [tugstugi](https://github.com/tugstugi), have participated
 in the Kaggle competition [TensorFlow Speech Recognition Challenge](https://www.kaggle.com/c/tensorflow-speech-recognition-challenge)
