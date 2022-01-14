@@ -1,0 +1,771 @@
+----- MODEL VGG19_BN, EPOCHS=70, OPTIM=SGD -------
+use_gpu True
+training vgg19_bn for Google speech commands...
+epoch   0 with lr=1.00e-02
+total time elapsed: 0h 1m 30s , best accuracy: 70.38%, best loss 0.861583
+epoch   1 with lr=1.00e-02
+total time elapsed: 0h 3m 1s , best accuracy: 84.02%, best loss 0.533731
+epoch   2 with lr=1.00e-02
+total time elapsed: 0h 4m 31s , best accuracy: 92.44%, best loss 0.249124
+epoch   3 with lr=1.00e-02
+total time elapsed: 0h 5m 37s , best accuracy: 92.44%, best loss 0.249124
+epoch   4 with lr=1.00e-02
+total time elapsed: 0h 6m 44s , best accuracy: 92.44%, best loss 0.249124
+epoch   5 with lr=1.00e-02
+total time elapsed: 0h 7m 51s , best accuracy: 92.44%, best loss 0.249124
+epoch   6 with lr=1.00e-02
+total time elapsed: 0h 8m 58s , best accuracy: 92.44%, best loss 0.249124
+epoch   7 with lr=1.00e-02
+total time elapsed: 0h 10m 5s , best accuracy: 92.44%, best loss 0.249124
+epoch   8 with lr=1.00e-02
+total time elapsed: 0h 11m 12s , best accuracy: 92.44%, best loss 0.249124
+epoch   9 with lr=1.00e-03
+total time elapsed: 0h 12m 44s , best accuracy: 95.17%, best loss 0.171535
+epoch  10 with lr=1.00e-03
+total time elapsed: 0h 13m 50s , best accuracy: 95.17%, best loss 0.171535
+epoch  11 with lr=1.00e-03
+total time elapsed: 0h 15m 8s , best accuracy: 95.17%, best loss 0.171116
+epoch  12 with lr=1.00e-03
+total time elapsed: 0h 16m 38s , best accuracy: 95.27%, best loss 0.161638
+epoch  13 with lr=1.00e-03
+total time elapsed: 0h 18m 8s , best accuracy: 95.32%, best loss 0.159557
+epoch  14 with lr=1.00e-03
+total time elapsed: 0h 19m 37s , best accuracy: 95.84%, best loss 0.148701
+epoch  15 with lr=1.00e-03
+total time elapsed: 0h 20m 43s , best accuracy: 95.84%, best loss 0.148701
+epoch  16 with lr=1.00e-03
+total time elapsed: 0h 22m 1s , best accuracy: 95.84%, best loss 0.139914
+epoch  17 with lr=1.00e-03
+total time elapsed: 0h 23m 7s , best accuracy: 95.84%, best loss 0.139914
+epoch  18 with lr=1.00e-03
+total time elapsed: 0h 24m 14s , best accuracy: 95.84%, best loss 0.139914
+epoch  19 with lr=1.00e-03
+total time elapsed: 0h 25m 22s , best accuracy: 95.84%, best loss 0.139914
+epoch  20 with lr=1.00e-03
+total time elapsed: 0h 26m 29s , best accuracy: 95.84%, best loss 0.139914
+epoch  21 with lr=1.00e-03
+total time elapsed: 0h 27m 34s , best accuracy: 95.84%, best loss 0.139914
+epoch  22 with lr=1.00e-03
+total time elapsed: 0h 28m 40s , best accuracy: 95.84%, best loss 0.139914
+epoch  23 with lr=1.00e-04
+total time elapsed: 0h 30m 11s , best accuracy: 96.59%, best loss 0.120881
+epoch  24 with lr=1.00e-04
+total time elapsed: 0h 31m 41s , best accuracy: 96.82%, best loss 0.112934
+epoch  25 with lr=1.00e-04
+total time elapsed: 0h 32m 47s , best accuracy: 96.82%, best loss 0.112934
+epoch  26 with lr=1.00e-04
+total time elapsed: 0h 34m 7s , best accuracy: 96.87%, best loss 0.112934
+epoch  27 with lr=1.00e-04
+total time elapsed: 0h 35m 37s , best accuracy: 96.99%, best loss 0.108594
+epoch  28 with lr=1.00e-04
+total time elapsed: 0h 37m 7s , best accuracy: 97.00%, best loss 0.105625
+epoch  29 with lr=1.00e-04
+total time elapsed: 0h 38m 38s , best accuracy: 97.07%, best loss 0.105228
+epoch  30 with lr=1.00e-04
+total time elapsed: 0h 39m 44s , best accuracy: 97.07%, best loss 0.105228
+epoch  31 with lr=1.00e-04
+total time elapsed: 0h 40m 51s , best accuracy: 97.07%, best loss 0.105228
+epoch  32 with lr=1.00e-04
+total time elapsed: 0h 42m 22s , best accuracy: 97.23%, best loss 0.104441
+epoch  33 with lr=1.00e-04
+total time elapsed: 0h 43m 28s , best accuracy: 97.23%, best loss 0.104441
+epoch  34 with lr=1.00e-04
+total time elapsed: 0h 44m 34s , best accuracy: 97.23%, best loss 0.104441
+epoch  35 with lr=1.00e-04
+total time elapsed: 0h 45m 41s , best accuracy: 97.23%, best loss 0.104441
+epoch  36 with lr=1.00e-04
+total time elapsed: 0h 46m 48s , best accuracy: 97.23%, best loss 0.104441
+epoch  37 with lr=1.00e-04
+total time elapsed: 0h 47m 54s , best accuracy: 97.23%, best loss 0.104441
+epoch  38 with lr=1.00e-04
+total time elapsed: 0h 48m 59s , best accuracy: 97.23%, best loss 0.104441
+epoch  39 with lr=1.00e-05
+total time elapsed: 0h 50m 5s , best accuracy: 97.23%, best loss 0.104441
+epoch  40 with lr=1.00e-05
+total time elapsed: 0h 51m 12s , best accuracy: 97.23%, best loss 0.104441
+epoch  41 with lr=1.00e-05
+total time elapsed: 0h 52m 28s , best accuracy: 97.23%, best loss 0.103703
+epoch  42 with lr=1.00e-05
+total time elapsed: 0h 53m 34s , best accuracy: 97.23%, best loss 0.103703
+epoch  43 with lr=1.00e-05
+total time elapsed: 0h 54m 41s , best accuracy: 97.23%, best loss 0.103703
+epoch  44 with lr=1.00e-05
+total time elapsed: 0h 55m 48s , best accuracy: 97.23%, best loss 0.103703
+epoch  45 with lr=1.00e-05
+total time elapsed: 0h 56m 54s , best accuracy: 97.23%, best loss 0.103703
+epoch  46 with lr=1.00e-05
+total time elapsed: 0h 58m 12s , best accuracy: 97.23%, best loss 0.101692
+epoch  47 with lr=1.00e-05
+total time elapsed: 0h 59m 18s , best accuracy: 97.23%, best loss 0.101692
+epoch  48 with lr=1.00e-05
+total time elapsed: 1h 0m 25s , best accuracy: 97.23%, best loss 0.101692
+epoch  49 with lr=1.00e-05
+total time elapsed: 1h 1m 31s , best accuracy: 97.23%, best loss 0.101692
+epoch  50 with lr=1.00e-05
+total time elapsed: 1h 2m 38s , best accuracy: 97.23%, best loss 0.101692
+epoch  51 with lr=1.00e-05
+total time elapsed: 1h 3m 45s , best accuracy: 97.23%, best loss 0.101692
+epoch  52 with lr=1.00e-05
+total time elapsed: 1h 4m 52s , best accuracy: 97.23%, best loss 0.101692
+epoch  53 with lr=1.00e-06
+total time elapsed: 1h 5m 58s , best accuracy: 97.23%, best loss 0.101692
+epoch  54 with lr=1.00e-06
+total time elapsed: 1h 7m 5s , best accuracy: 97.23%, best loss 0.101692
+epoch  55 with lr=1.00e-06
+total time elapsed: 1h 8m 11s , best accuracy: 97.23%, best loss 0.101692
+epoch  56 with lr=1.00e-06
+total time elapsed: 1h 9m 18s , best accuracy: 97.23%, best loss 0.101692
+epoch  57 with lr=1.00e-06
+total time elapsed: 1h 10m 49s , best accuracy: 97.24%, best loss 0.100311
+epoch  58 with lr=1.00e-06
+total time elapsed: 1h 11m 55s , best accuracy: 97.24%, best loss 0.100311
+epoch  59 with lr=1.00e-06
+total time elapsed: 1h 13m 1s , best accuracy: 97.24%, best loss 0.100311
+epoch  60 with lr=1.00e-06
+total time elapsed: 1h 14m 21s , best accuracy: 97.27%, best loss 0.100311
+epoch  61 with lr=1.00e-06
+total time elapsed: 1h 15m 27s , best accuracy: 97.27%, best loss 0.100311
+epoch  62 with lr=1.00e-06
+total time elapsed: 1h 16m 34s , best accuracy: 97.27%, best loss 0.100311
+epoch  63 with lr=1.00e-06
+total time elapsed: 1h 17m 41s , best accuracy: 97.27%, best loss 0.100311
+epoch  64 with lr=1.00e-07
+total time elapsed: 1h 18m 47s , best accuracy: 97.27%, best loss 0.100311
+epoch  65 with lr=1.00e-07
+total time elapsed: 1h 19m 53s , best accuracy: 97.27%, best loss 0.100311
+epoch  66 with lr=1.00e-07
+total time elapsed: 1h 21m 0s , best accuracy: 97.27%, best loss 0.100311
+epoch  67 with lr=1.00e-07
+total time elapsed: 1h 22m 20s , best accuracy: 97.30%, best loss 0.100311
+epoch  68 with lr=1.00e-07
+total time elapsed: 1h 23m 26s , best accuracy: 97.30%, best loss 0.100311
+epoch  69 with lr=1.00e-07
+total time elapsed: 1h 24m 32s , best accuracy: 97.30%, best loss 0.100311
+finished
+----- MODEL VGG19_BN, EPOCHS=10, OPTIM=SGD -------
+use_gpu True
+training vgg19_bn for Google speech commands...
+epoch   0 with lr=1.00e-02
+total time elapsed: 0h 1m 31s , best accuracy: 74.04%, best loss 0.749467
+epoch   1 with lr=1.00e-02
+total time elapsed: 0h 3m 0s , best accuracy: 77.38%, best loss 0.674706
+epoch   2 with lr=1.00e-02
+total time elapsed: 0h 4m 30s , best accuracy: 81.74%, best loss 0.553422
+epoch   3 with lr=1.00e-02
+total time elapsed: 0h 5m 37s , best accuracy: 81.74%, best loss 0.553422
+epoch   4 with lr=1.00e-02
+total time elapsed: 0h 6m 44s , best accuracy: 81.74%, best loss 0.553422
+epoch   5 with lr=1.00e-02
+total time elapsed: 0h 8m 15s , best accuracy: 86.64%, best loss 0.471757
+epoch   6 with lr=1.00e-02
+total time elapsed: 0h 9m 21s , best accuracy: 86.64%, best loss 0.471757
+epoch   7 with lr=1.00e-02
+total time elapsed: 0h 10m 51s , best accuracy: 90.24%, best loss 0.332713
+epoch   8 with lr=1.00e-02
+total time elapsed: 0h 11m 57s , best accuracy: 90.24%, best loss 0.332713
+epoch   9 with lr=1.00e-02
+total time elapsed: 0h 13m 4s , best accuracy: 90.24%, best loss 0.332713
+finished
+----- MODEL VGG19_BN, EPOCHS=70, OPTIM=SGD, WITH MIXUP -------
+use_gpu True
+training vgg19_bn for Google speech commands...
+epoch   0 with lr=1.00e-02
+total time elapsed: 0h 1m 32s , best accuracy: 30.05%, best loss 1.911834
+epoch   1 with lr=1.00e-02
+total time elapsed: 0h 3m 3s , best accuracy: 61.68%, best loss 1.239227
+epoch   2 with lr=1.00e-02
+total time elapsed: 0h 4m 34s , best accuracy: 84.61%, best loss 0.710728
+epoch   3 with lr=1.00e-02
+total time elapsed: 0h 5m 40s , best accuracy: 84.61%, best loss 0.710728
+epoch   4 with lr=1.00e-02
+total time elapsed: 0h 6m 47s , best accuracy: 84.61%, best loss 0.710728
+epoch   5 with lr=1.00e-02
+total time elapsed: 0h 8m 6s , best accuracy: 84.61%, best loss 0.683579
+epoch   6 with lr=1.00e-02
+total time elapsed: 0h 9m 11s , best accuracy: 84.61%, best loss 0.683579
+epoch   7 with lr=1.00e-02
+total time elapsed: 0h 10m 18s , best accuracy: 84.61%, best loss 0.683579
+epoch   8 with lr=1.00e-02
+total time elapsed: 0h 11m 24s , best accuracy: 84.61%, best loss 0.683579
+epoch   9 with lr=1.00e-02
+total time elapsed: 0h 12m 30s , best accuracy: 84.61%, best loss 0.683579
+finished
+----- MODEL WideResNet 28-10, EPOCHS=70, OPTIM=SGD -------
+use_gpu True
+training wideresnet28_10 for Google speech commands...
+epoch   0 with lr=1.00e-02
+total time elapsed: 0h 2m 7s , best accuracy: 69.29%, best loss 0.936153
+epoch   1 with lr=1.00e-02
+total time elapsed: 0h 4m 11s , best accuracy: 90.36%, best loss 0.429450
+epoch   2 with lr=1.00e-02
+total time elapsed: 0h 5m 53s , best accuracy: 90.36%, best loss 0.429450
+epoch   3 with lr=1.00e-02
+total time elapsed: 0h 7m 46s , best accuracy: 90.36%, best loss 0.375525
+epoch   4 with lr=1.00e-02
+total time elapsed: 0h 9m 28s , best accuracy: 90.36%, best loss 0.375525
+epoch   5 with lr=1.00e-02
+total time elapsed: 0h 11m 10s , best accuracy: 90.36%, best loss 0.375525
+epoch   6 with lr=1.00e-02
+total time elapsed: 0h 12m 52s , best accuracy: 90.36%, best loss 0.375525
+epoch   7 with lr=1.00e-02
+total time elapsed: 0h 14m 45s , best accuracy: 90.36%, best loss 0.352718
+epoch   8 with lr=1.00e-02
+total time elapsed: 0h 16m 28s , best accuracy: 90.36%, best loss 0.352718
+epoch   9 with lr=1.00e-02
+total time elapsed: 0h 18m 9s , best accuracy: 90.36%, best loss 0.352718
+epoch  10 with lr=1.00e-02
+total time elapsed: 0h 19m 51s , best accuracy: 90.36%, best loss 0.352718
+epoch  11 with lr=1.00e-02
+total time elapsed: 0h 21m 33s , best accuracy: 90.36%, best loss 0.352718
+epoch  12 with lr=1.00e-02
+total time elapsed: 0h 23m 15s , best accuracy: 90.36%, best loss 0.352718
+epoch  13 with lr=1.00e-02
+total time elapsed: 0h 24m 57s , best accuracy: 90.36%, best loss 0.352718
+epoch  14 with lr=1.00e-03
+total time elapsed: 0h 27m 1s , best accuracy: 96.63%, best loss 0.138411
+epoch  15 with lr=1.00e-03
+total time elapsed: 0h 28m 43s , best accuracy: 96.63%, best loss 0.138411
+epoch  16 with lr=1.00e-03
+total time elapsed: 0h 30m 25s , best accuracy: 96.63%, best loss 0.138411
+epoch  17 with lr=1.00e-03
+total time elapsed: 0h 32m 7s , best accuracy: 96.63%, best loss 0.138411
+epoch  18 with lr=1.00e-03
+total time elapsed: 0h 33m 59s , best accuracy: 96.63%, best loss 0.135835
+epoch  19 with lr=1.00e-03
+total time elapsed: 0h 35m 41s , best accuracy: 96.63%, best loss 0.135835
+epoch  20 with lr=1.00e-03
+total time elapsed: 0h 37m 22s , best accuracy: 96.63%, best loss 0.135835
+epoch  21 with lr=1.00e-03
+total time elapsed: 0h 39m 27s , best accuracy: 97.04%, best loss 0.118788
+epoch  22 with lr=1.00e-03
+total time elapsed: 0h 41m 9s , best accuracy: 97.04%, best loss 0.118788
+epoch  23 with lr=1.00e-03
+total time elapsed: 0h 42m 51s , best accuracy: 97.04%, best loss 0.118788
+epoch  24 with lr=1.00e-03
+total time elapsed: 0h 44m 33s , best accuracy: 97.04%, best loss 0.118788
+epoch  25 with lr=1.00e-03
+total time elapsed: 0h 46m 15s , best accuracy: 97.04%, best loss 0.118788
+epoch  26 with lr=1.00e-03
+total time elapsed: 0h 47m 57s , best accuracy: 97.04%, best loss 0.118788
+epoch  27 with lr=1.00e-03
+total time elapsed: 0h 49m 39s , best accuracy: 97.04%, best loss 0.118788
+epoch  28 with lr=1.00e-04
+total time elapsed: 0h 51m 21s , best accuracy: 97.04%, best loss 0.118788
+epoch  29 with lr=1.00e-04
+total time elapsed: 0h 53m 3s , best accuracy: 97.04%, best loss 0.118788
+epoch  30 with lr=1.00e-04
+total time elapsed: 0h 55m 7s , best accuracy: 97.31%, best loss 0.110814
+epoch  31 with lr=1.00e-04
+total time elapsed: 0h 57m 0s , best accuracy: 97.31%, best loss 0.110224
+epoch  32 with lr=1.00e-04
+total time elapsed: 0h 58m 42s , best accuracy: 97.31%, best loss 0.110224
+epoch  33 with lr=1.00e-04
+total time elapsed: 1h 0m 35s , best accuracy: 97.37%, best loss 0.110224
+epoch  34 with lr=1.00e-04
+total time elapsed: 1h 2m 28s , best accuracy: 97.41%, best loss 0.110224
+epoch  35 with lr=1.00e-04
+total time elapsed: 1h 4m 10s , best accuracy: 97.41%, best loss 0.110224
+epoch  36 with lr=1.00e-04
+total time elapsed: 1h 5m 51s , best accuracy: 97.41%, best loss 0.110224
+epoch  37 with lr=1.00e-04
+total time elapsed: 1h 7m 44s , best accuracy: 97.41%, best loss 0.109707
+epoch  38 with lr=1.00e-04
+total time elapsed: 1h 9m 26s , best accuracy: 97.41%, best loss 0.109707
+epoch  39 with lr=1.00e-04
+total time elapsed: 1h 11m 8s , best accuracy: 97.41%, best loss 0.109707
+epoch  40 with lr=1.00e-04
+total time elapsed: 1h 13m 12s , best accuracy: 97.54%, best loss 0.104273
+epoch  41 with lr=1.00e-04
+total time elapsed: 1h 14m 53s , best accuracy: 97.54%, best loss 0.104273
+epoch  42 with lr=1.00e-04
+total time elapsed: 1h 16m 46s , best accuracy: 97.59%, best loss 0.104273
+epoch  43 with lr=1.00e-04
+total time elapsed: 1h 18m 28s , best accuracy: 97.59%, best loss 0.104273
+epoch  44 with lr=1.00e-04
+total time elapsed: 1h 20m 21s , best accuracy: 97.63%, best loss 0.104273
+epoch  45 with lr=1.00e-04
+total time elapsed: 1h 22m 2s , best accuracy: 97.63%, best loss 0.104273
+epoch  46 with lr=1.00e-04
+total time elapsed: 1h 23m 44s , best accuracy: 97.63%, best loss 0.104273
+epoch  47 with lr=1.00e-05
+total time elapsed: 1h 25m 48s , best accuracy: 97.69%, best loss 0.101747
+epoch  48 with lr=1.00e-05
+total time elapsed: 1h 27m 30s , best accuracy: 97.69%, best loss 0.101747
+epoch  49 with lr=1.00e-05
+total time elapsed: 1h 29m 12s , best accuracy: 97.69%, best loss 0.101747
+epoch  50 with lr=1.00e-05
+total time elapsed: 1h 30m 54s , best accuracy: 97.69%, best loss 0.101747
+epoch  51 with lr=1.00e-05
+total time elapsed: 1h 32m 35s , best accuracy: 97.69%, best loss 0.101747
+epoch  52 with lr=1.00e-05
+total time elapsed: 1h 34m 17s , best accuracy: 97.69%, best loss 0.101747
+epoch  53 with lr=1.00e-05
+total time elapsed: 1h 36m 9s , best accuracy: 97.69%, best loss 0.100809
+epoch  54 with lr=1.00e-05
+total time elapsed: 1h 37m 51s , best accuracy: 97.69%, best loss 0.100809
+epoch  55 with lr=1.00e-05
+total time elapsed: 1h 39m 34s , best accuracy: 97.69%, best loss 0.100809
+epoch  56 with lr=1.00e-05
+total time elapsed: 1h 41m 16s , best accuracy: 97.69%, best loss 0.100809
+epoch  57 with lr=1.00e-05
+total time elapsed: 1h 42m 57s , best accuracy: 97.69%, best loss 0.100809
+epoch  58 with lr=1.00e-05
+total time elapsed: 1h 44m 50s , best accuracy: 97.69%, best loss 0.099414
+epoch  59 with lr=1.00e-05
+total time elapsed: 1h 46m 31s , best accuracy: 97.69%, best loss 0.099414
+epoch  60 with lr=1.00e-05
+total time elapsed: 1h 48m 13s , best accuracy: 97.69%, best loss 0.099414
+epoch  61 with lr=1.00e-05
+total time elapsed: 1h 49m 55s , best accuracy: 97.69%, best loss 0.099414
+epoch  62 with lr=1.00e-05
+total time elapsed: 1h 51m 49s , best accuracy: 97.70%, best loss 0.099414
+epoch  63 with lr=1.00e-05
+total time elapsed: 1h 53m 31s , best accuracy: 97.70%, best loss 0.099414
+epoch  64 with lr=1.00e-05
+total time elapsed: 1h 55m 12s , best accuracy: 97.70%, best loss 0.099414
+epoch  65 with lr=1.00e-06
+total time elapsed: 1h 56m 54s , best accuracy: 97.70%, best loss 0.099414
+epoch  66 with lr=1.00e-06
+total time elapsed: 1h 58m 36s , best accuracy: 97.70%, best loss 0.099414
+epoch  67 with lr=1.00e-06
+total time elapsed: 2h 0m 18s , best accuracy: 97.70%, best loss 0.099414
+epoch  68 with lr=1.00e-06
+total time elapsed: 2h 1m 59s , best accuracy: 97.70%, best loss 0.099414
+epoch  69 with lr=1.00e-06
+total time elapsed: 2h 3m 41s , best accuracy: 97.70%, best loss 0.099414
+finished
+----- MODEL WideResNet 28-10, EPOCHS=10, OPTIM=SGD -------
+use_gpu True
+training wideresnet28_10 for Google speech commands...
+epoch   0 with lr=1.00e-02
+total time elapsed: 0h 2m 4s , best accuracy: 84.16%, best loss 0.469571
+epoch   1 with lr=1.00e-02
+total time elapsed: 0h 3m 46s , best accuracy: 84.16%, best loss 0.469571
+epoch   2 with lr=1.00e-02
+total time elapsed: 0h 5m 27s , best accuracy: 84.16%, best loss 0.469571
+epoch   3 with lr=1.00e-02
+total time elapsed: 0h 7m 9s , best accuracy: 84.16%, best loss 0.469571
+epoch   4 with lr=1.00e-02
+total time elapsed: 0h 9m 12s , best accuracy: 87.51%, best loss 0.405608
+epoch   5 with lr=1.00e-02
+total time elapsed: 0h 10m 53s , best accuracy: 87.51%, best loss 0.405608
+epoch   6 with lr=1.00e-02
+total time elapsed: 0h 12m 35s , best accuracy: 87.51%, best loss 0.405608
+epoch   7 with lr=1.00e-02
+total time elapsed: 0h 14m 37s , best accuracy: 93.34%, best loss 0.233868
+epoch   8 with lr=1.00e-02
+total time elapsed: 0h 16m 19s , best accuracy: 93.34%, best loss 0.233868
+epoch   9 with lr=1.00e-02
+total time elapsed: 0h 18m 0s , best accuracy: 93.34%, best loss 0.233868
+epoch  10 with lr=1.00e-02
+total time elapsed: 0h 19m 42s , best accuracy: 93.34%, best loss 0.233868
+epoch  11 with lr=1.00e-02
+total time elapsed: 0h 21m 23s , best accuracy: 93.34%, best loss 0.233868
+epoch  12 with lr=1.00e-02
+total time elapsed: 0h 23m 5s , best accuracy: 93.34%, best loss 0.233868
+epoch  13 with lr=1.00e-02
+total time elapsed: 0h 24m 46s , best accuracy: 93.34%, best loss 0.233868
+epoch  14 with lr=1.00e-03
+total time elapsed: 0h 26m 49s , best accuracy: 95.93%, best loss 0.153427
+epoch  15 with lr=1.00e-03
+total time elapsed: 0h 28m 51s , best accuracy: 96.20%, best loss 0.150037
+epoch  16 with lr=1.00e-03
+total time elapsed: 0h 30m 53s , best accuracy: 96.51%, best loss 0.136775
+epoch  17 with lr=1.00e-03
+total time elapsed: 0h 32m 55s , best accuracy: 96.67%, best loss 0.130993
+epoch  18 with lr=1.00e-03
+total time elapsed: 0h 34m 37s , best accuracy: 96.67%, best loss 0.130993
+epoch  19 with lr=1.00e-03
+total time elapsed: 0h 36m 18s , best accuracy: 96.67%, best loss 0.130993
+epoch  20 with lr=1.00e-03
+total time elapsed: 0h 38m 21s , best accuracy: 97.08%, best loss 0.120416
+epoch  21 with lr=1.00e-03
+total time elapsed: 0h 40m 12s , best accuracy: 97.15%, best loss 0.120416
+epoch  22 with lr=1.00e-03
+total time elapsed: 0h 41m 53s , best accuracy: 97.15%, best loss 0.120416
+epoch  23 with lr=1.00e-03
+total time elapsed: 0h 43m 34s , best accuracy: 97.15%, best loss 0.120416
+epoch  24 with lr=1.00e-03
+total time elapsed: 0h 45m 15s , best accuracy: 97.15%, best loss 0.120416
+epoch  25 with lr=1.00e-03
+total time elapsed: 0h 46m 57s , best accuracy: 97.15%, best loss 0.120416
+epoch  26 with lr=1.00e-03
+total time elapsed: 0h 48m 38s , best accuracy: 97.15%, best loss 0.120416
+epoch  27 with lr=1.00e-04
+total time elapsed: 0h 50m 38s , best accuracy: 97.20%, best loss 0.114985
+epoch  28 with lr=1.00e-04
+total time elapsed: 0h 52m 38s , best accuracy: 97.33%, best loss 0.111113
+epoch  29 with lr=1.00e-04
+total time elapsed: 0h 54m 30s , best accuracy: 97.34%, best loss 0.111113
+epoch  30 with lr=1.00e-04
+total time elapsed: 0h 56m 10s , best accuracy: 97.34%, best loss 0.111113
+epoch  31 with lr=1.00e-04
+total time elapsed: 0h 57m 59s , best accuracy: 97.34%, best loss 0.110061
+epoch  32 with lr=1.00e-04
+total time elapsed: 0h 59m 58s , best accuracy: 97.62%, best loss 0.107465
+epoch  33 with lr=1.00e-04
+total time elapsed: 1h 1m 46s , best accuracy: 97.62%, best loss 0.103864
+epoch  34 with lr=1.00e-04
+total time elapsed: 1h 3m 27s , best accuracy: 97.62%, best loss 0.103864
+epoch  35 with lr=1.00e-04
+total time elapsed: 1h 5m 7s , best accuracy: 97.62%, best loss 0.103864
+epoch  36 with lr=1.00e-04
+total time elapsed: 1h 6m 48s , best accuracy: 97.62%, best loss 0.103864
+epoch  37 with lr=1.00e-04
+total time elapsed: 1h 8m 47s , best accuracy: 97.79%, best loss 0.094470
+epoch  38 with lr=1.00e-04
+total time elapsed: 1h 10m 27s , best accuracy: 97.79%, best loss 0.094470
+epoch  39 with lr=1.00e-04
+total time elapsed: 1h 12m 8s , best accuracy: 97.79%, best loss 0.094470
+epoch  40 with lr=1.00e-04
+total time elapsed: 1h 13m 48s , best accuracy: 97.79%, best loss 0.094470
+epoch  41 with lr=1.00e-04
+total time elapsed: 1h 15m 28s , best accuracy: 97.79%, best loss 0.094470
+epoch  42 with lr=1.00e-04
+total time elapsed: 1h 17m 9s , best accuracy: 97.79%, best loss 0.094470
+epoch  43 with lr=1.00e-04
+total time elapsed: 1h 18m 49s , best accuracy: 97.79%, best loss 0.094470
+epoch  44 with lr=1.00e-05
+total time elapsed: 1h 20m 30s , best accuracy: 97.79%, best loss 0.094470
+epoch  45 with lr=1.00e-05
+total time elapsed: 1h 22m 10s , best accuracy: 97.79%, best loss 0.094470
+epoch  46 with lr=1.00e-05
+total time elapsed: 1h 23m 51s , best accuracy: 97.79%, best loss 0.094470
+epoch  47 with lr=1.00e-05
+total time elapsed: 1h 25m 31s , best accuracy: 97.79%, best loss 0.094470
+epoch  48 with lr=1.00e-05
+total time elapsed: 1h 27m 11s , best accuracy: 97.79%, best loss 0.094470
+epoch  49 with lr=1.00e-05
+total time elapsed: 1h 28m 52s , best accuracy: 97.79%, best loss 0.094470
+epoch  50 with lr=1.00e-06
+total time elapsed: 1h 30m 32s , best accuracy: 97.79%, best loss 0.094470
+epoch  51 with lr=1.00e-06
+total time elapsed: 1h 32m 12s , best accuracy: 97.79%, best loss 0.094470
+epoch  52 with lr=1.00e-06
+total time elapsed: 1h 33m 53s , best accuracy: 97.79%, best loss 0.094470
+epoch  53 with lr=1.00e-06
+total time elapsed: 1h 35m 33s , best accuracy: 97.79%, best loss 0.094470
+epoch  54 with lr=1.00e-06
+total time elapsed: 1h 37m 14s , best accuracy: 97.79%, best loss 0.094470
+epoch  55 with lr=1.00e-06
+total time elapsed: 1h 38m 54s , best accuracy: 97.79%, best loss 0.094470
+epoch  56 with lr=1.00e-07
+total time elapsed: 1h 40m 35s , best accuracy: 97.79%, best loss 0.094470
+epoch  57 with lr=1.00e-07
+total time elapsed: 1h 42m 16s , best accuracy: 97.79%, best loss 0.094470
+epoch  58 with lr=1.00e-07
+total time elapsed: 1h 43m 56s , best accuracy: 97.79%, best loss 0.094470
+epoch  59 with lr=1.00e-07
+total time elapsed: 1h 45m 37s , best accuracy: 97.79%, best loss 0.094470
+epoch  60 with lr=1.00e-07
+total time elapsed: 1h 47m 17s , best accuracy: 97.79%, best loss 0.094470
+epoch  61 with lr=1.00e-07
+total time elapsed: 1h 48m 58s , best accuracy: 97.79%, best loss 0.094470
+epoch  62 with lr=1.00e-08
+total time elapsed: 1h 50m 39s , best accuracy: 97.79%, best loss 0.094470
+epoch  63 with lr=1.00e-08
+total time elapsed: 1h 52m 19s , best accuracy: 97.79%, best loss 0.094470
+epoch  64 with lr=1.00e-08
+total time elapsed: 1h 53m 59s , best accuracy: 97.79%, best loss 0.094470
+epoch  65 with lr=1.00e-08
+total time elapsed: 1h 55m 40s , best accuracy: 97.79%, best loss 0.094470
+epoch  66 with lr=1.00e-08
+total time elapsed: 1h 57m 20s , best accuracy: 97.79%, best loss 0.094470
+epoch  67 with lr=1.00e-08
+total time elapsed: 1h 59m 1s , best accuracy: 97.79%, best loss 0.094470
+epoch  68 with lr=1.00e-08
+total time elapsed: 2h 0m 41s , best accuracy: 97.79%, best loss 0.094470
+epoch  69 with lr=1.00e-08
+total time elapsed: 2h 2m 22s , best accuracy: 97.79%, best loss 0.094470
+finished
+----- MODEL WideResNet 28-10, EPOCHS=70, OPTIM=SGD, WITH MIXUP -------
+----- MODEL WideResNet 28-10, EPOCHS=70, OPTIM=ADAM< -------
+----- MODEL VGG19_BN, EPOCHS=70, OPTIM=ADAM -------
+use_gpu True
+training vgg19_bn for Google speech commands...
+epoch   0 with lr=1.00e-02
+total time elapsed: 0h 1m 42s , best accuracy: 3.42%, best loss 2.495210
+epoch   1 with lr=1.00e-02
+total time elapsed: 0h 3m 6s , best accuracy: 3.49%, best loss 2.495210
+epoch   2 with lr=1.00e-02
+total time elapsed: 0h 4m 29s , best accuracy: 3.49%, best loss 2.406614
+epoch   3 with lr=1.00e-02
+total time elapsed: 0h 5m 38s , best accuracy: 3.49%, best loss 2.406614
+epoch   4 with lr=1.00e-02
+total time elapsed: 0h 6m 47s , best accuracy: 3.49%, best loss 2.406614
+epoch   5 with lr=1.00e-02
+total time elapsed: 0h 7m 56s , best accuracy: 3.49%, best loss 2.406614
+epoch   6 with lr=1.00e-02
+total time elapsed: 0h 9m 21s , best accuracy: 9.08%, best loss 2.406614
+epoch   7 with lr=1.00e-02
+total time elapsed: 0h 10m 29s , best accuracy: 9.08%, best loss 2.406614
+epoch   8 with lr=1.00e-02
+total time elapsed: 0h 11m 38s , best accuracy: 9.08%, best loss 2.406614
+epoch   9 with lr=1.00e-03
+total time elapsed: 0h 12m 47s , best accuracy: 9.08%, best loss 2.406614
+epoch  10 with lr=1.00e-03
+total time elapsed: 0h 13m 55s , best accuracy: 9.08%, best loss 2.406614
+epoch  11 with lr=1.00e-03
+total time elapsed: 0h 15m 4s , best accuracy: 9.08%, best loss 2.406614
+epoch  12 with lr=1.00e-03
+total time elapsed: 0h 16m 13s , best accuracy: 9.08%, best loss 2.406614
+epoch  13 with lr=1.00e-03
+total time elapsed: 0h 17m 21s , best accuracy: 9.08%, best loss 2.406614
+epoch  14 with lr=1.00e-03
+total time elapsed: 0h 18m 30s , best accuracy: 9.08%, best loss 2.406614
+epoch  15 with lr=1.00e-04
+total time elapsed: 0h 19m 39s , best accuracy: 9.08%, best loss 2.406614
+epoch  16 with lr=1.00e-04
+total time elapsed: 0h 20m 47s , best accuracy: 9.08%, best loss 2.406614
+epoch  17 with lr=1.00e-04
+total time elapsed: 0h 21m 56s , best accuracy: 9.08%, best loss 2.406614
+epoch  18 with lr=1.00e-04
+total time elapsed: 0h 23m 5s , best accuracy: 9.08%, best loss 2.406614
+epoch  19 with lr=1.00e-04
+total time elapsed: 0h 24m 13s , best accuracy: 9.08%, best loss 2.406614
+epoch  20 with lr=1.00e-04
+total time elapsed: 0h 25m 22s , best accuracy: 9.08%, best loss 2.406614
+epoch  21 with lr=1.00e-05
+total time elapsed: 0h 26m 31s , best accuracy: 9.08%, best loss 2.406614
+epoch  22 with lr=1.00e-05
+total time elapsed: 0h 27m 40s , best accuracy: 9.08%, best loss 2.406614
+epoch  23 with lr=1.00e-05
+total time elapsed: 0h 28m 49s , best accuracy: 9.08%, best loss 2.406614
+epoch  24 with lr=1.00e-05
+total time elapsed: 0h 29m 57s , best accuracy: 9.08%, best loss 2.406614
+epoch  25 with lr=1.00e-05
+total time elapsed: 0h 31m 6s , best accuracy: 9.08%, best loss 2.406614
+epoch  26 with lr=1.00e-05
+total time elapsed: 0h 32m 14s , best accuracy: 9.08%, best loss 2.406614
+epoch  27 with lr=1.00e-06
+total time elapsed: 0h 33m 22s , best accuracy: 9.08%, best loss 2.406614
+epoch  28 with lr=1.00e-06
+total time elapsed: 0h 34m 31s , best accuracy: 9.08%, best loss 2.406614
+epoch  29 with lr=1.00e-06
+total time elapsed: 0h 35m 39s , best accuracy: 9.08%, best loss 2.406614
+epoch  30 with lr=1.00e-06
+total time elapsed: 0h 36m 48s , best accuracy: 9.08%, best loss 2.406614
+epoch  31 with lr=1.00e-06
+total time elapsed: 0h 37m 56s , best accuracy: 9.08%, best loss 2.406614
+epoch  32 with lr=1.00e-06
+total time elapsed: 0h 39m 5s , best accuracy: 9.08%, best loss 2.406614
+epoch  33 with lr=1.00e-07
+total time elapsed: 0h 40m 14s , best accuracy: 9.08%, best loss 2.406614
+epoch  34 with lr=1.00e-07
+total time elapsed: 0h 41m 22s , best accuracy: 9.08%, best loss 2.406614
+epoch  35 with lr=1.00e-07
+total time elapsed: 0h 42m 31s , best accuracy: 9.08%, best loss 2.406614
+epoch  36 with lr=1.00e-07
+total time elapsed: 0h 43m 40s , best accuracy: 9.08%, best loss 2.406614
+epoch  37 with lr=1.00e-07
+total time elapsed: 0h 44m 48s , best accuracy: 9.08%, best loss 2.406614
+epoch  38 with lr=1.00e-07
+total time elapsed: 0h 45m 57s , best accuracy: 9.08%, best loss 2.406614
+epoch  39 with lr=1.00e-08
+total time elapsed: 0h 47m 6s , best accuracy: 9.08%, best loss 2.406614
+epoch  40 with lr=1.00e-08
+total time elapsed: 0h 48m 14s , best accuracy: 9.08%, best loss 2.406614
+epoch  41 with lr=1.00e-08
+total time elapsed: 0h 49m 23s , best accuracy: 9.08%, best loss 2.406614
+epoch  42 with lr=1.00e-08
+total time elapsed: 0h 50m 32s , best accuracy: 9.08%, best loss 2.406614
+epoch  43 with lr=1.00e-08
+total time elapsed: 0h 51m 40s , best accuracy: 9.08%, best loss 2.406614
+epoch  44 with lr=1.00e-08
+total time elapsed: 0h 52m 49s , best accuracy: 9.08%, best loss 2.406614
+epoch  45 with lr=1.00e-08
+total time elapsed: 0h 53m 57s , best accuracy: 9.08%, best loss 2.406614
+epoch  46 with lr=1.00e-08
+total time elapsed: 0h 55m 6s , best accuracy: 9.08%, best loss 2.406614
+epoch  47 with lr=1.00e-08
+total time elapsed: 0h 56m 14s , best accuracy: 9.08%, best loss 2.406614
+epoch  48 with lr=1.00e-08
+total time elapsed: 0h 57m 21s , best accuracy: 9.08%, best loss 2.406614
+epoch  49 with lr=1.00e-08
+total time elapsed: 0h 58m 31s , best accuracy: 9.08%, best loss 2.406614
+epoch  50 with lr=1.00e-08
+total time elapsed: 0h 59m 39s , best accuracy: 9.08%, best loss 2.406614
+epoch  51 with lr=1.00e-08
+total time elapsed: 1h 0m 48s , best accuracy: 9.08%, best loss 2.406614
+epoch  52 with lr=1.00e-08
+total time elapsed: 1h 1m 57s , best accuracy: 9.08%, best loss 2.406614
+epoch  53 with lr=1.00e-08
+total time elapsed: 1h 3m 5s , best accuracy: 9.08%, best loss 2.406614
+epoch  54 with lr=1.00e-08
+total time elapsed: 1h 4m 14s , best accuracy: 9.08%, best loss 2.406614
+epoch  55 with lr=1.00e-08
+total time elapsed: 1h 5m 23s , best accuracy: 9.08%, best loss 2.406614
+epoch  56 with lr=1.00e-08
+total time elapsed: 1h 6m 32s , best accuracy: 9.08%, best loss 2.406614
+epoch  57 with lr=1.00e-08
+total time elapsed: 1h 7m 41s , best accuracy: 9.08%, best loss 2.406614
+epoch  58 with lr=1.00e-08
+total time elapsed: 1h 8m 50s , best accuracy: 9.08%, best loss 2.406614
+epoch  59 with lr=1.00e-08
+total time elapsed: 1h 9m 58s , best accuracy: 9.08%, best loss 2.406614
+epoch  60 with lr=1.00e-08
+total time elapsed: 1h 11m 7s , best accuracy: 9.08%, best loss 2.406614
+epoch  61 with lr=1.00e-08
+total time elapsed: 1h 12m 16s , best accuracy: 9.08%, best loss 2.406614
+epoch  62 with lr=1.00e-08
+total time elapsed: 1h 13m 24s , best accuracy: 9.08%, best loss 2.406614
+epoch  63 with lr=1.00e-08
+total time elapsed: 1h 14m 33s , best accuracy: 9.08%, best loss 2.406614
+epoch  64 with lr=1.00e-08
+total time elapsed: 1h 15m 42s , best accuracy: 9.08%, best loss 2.406614
+epoch  65 with lr=1.00e-08
+total time elapsed: 1h 16m 50s , best accuracy: 9.08%, best loss 2.406614
+epoch  66 with lr=1.00e-08
+total time elapsed: 1h 17m 59s , best accuracy: 9.08%, best loss 2.406614
+epoch  67 with lr=1.00e-08
+total time elapsed: 1h 19m 8s , best accuracy: 9.08%, best loss 2.406614
+epoch  68 with lr=1.00e-08
+total time elapsed: 1h 20m 17s , best accuracy: 9.08%, best loss 2.406614
+epoch  69 with lr=1.00e-08
+total time elapsed: 1h 21m 25s , best accuracy: 9.08%, best loss 2.406614
+finished
+----- MODEL VGG19_BN, EPOCHS=70, OPTIM=SGD, LR=0.05 -------
+use_gpu True
+training vgg19_bn for Google speech commands...
+epoch   0 with lr=5.00e-02
+total time elapsed: 0h 1m 27s , best accuracy: 45.62%, best loss 1.523816
+epoch   1 with lr=5.00e-02
+total time elapsed: 0h 2m 31s , best accuracy: 45.62%, best loss 1.523816
+epoch   2 with lr=5.00e-02
+total time elapsed: 0h 3m 36s , best accuracy: 45.62%, best loss 1.523816
+epoch   3 with lr=5.00e-02
+total time elapsed: 0h 4m 41s , best accuracy: 45.62%, best loss 1.523816
+epoch   4 with lr=5.00e-02
+total time elapsed: 0h 6m 7s , best accuracy: 63.61%, best loss 1.387065
+epoch   5 with lr=5.00e-02
+total time elapsed: 0h 7m 11s , best accuracy: 63.61%, best loss 1.387065
+epoch   6 with lr=5.00e-02
+total time elapsed: 0h 8m 28s , best accuracy: 63.61%, best loss 1.268030
+epoch   7 with lr=5.00e-02
+total time elapsed: 0h 9m 32s , best accuracy: 63.61%, best loss 1.268030
+epoch   8 with lr=5.00e-02
+total time elapsed: 0h 10m 37s , best accuracy: 63.61%, best loss 1.268030
+epoch   9 with lr=5.00e-02
+total time elapsed: 0h 11m 42s , best accuracy: 63.61%, best loss 1.268030
+epoch  10 with lr=5.00e-02
+total time elapsed: 0h 12m 59s , best accuracy: 63.61%, best loss 1.263852
+epoch  11 with lr=5.00e-02
+total time elapsed: 0h 14m 16s , best accuracy: 63.61%, best loss 1.157383
+epoch  12 with lr=5.00e-02
+total time elapsed: 0h 15m 20s , best accuracy: 63.61%, best loss 1.157383
+epoch  13 with lr=5.00e-02
+total time elapsed: 0h 16m 34s , best accuracy: 63.74%, best loss 1.157383
+epoch  14 with lr=5.00e-02
+total time elapsed: 0h 17m 38s , best accuracy: 63.74%, best loss 1.157383
+epoch  15 with lr=5.00e-02
+total time elapsed: 0h 18m 44s , best accuracy: 63.74%, best loss 1.157383
+epoch  16 with lr=5.00e-02
+total time elapsed: 0h 19m 48s , best accuracy: 63.74%, best loss 1.157383
+epoch  17 with lr=5.00e-02
+total time elapsed: 0h 21m 5s , best accuracy: 63.74%, best loss 1.120617
+epoch  18 with lr=5.00e-02
+total time elapsed: 0h 22m 9s , best accuracy: 63.74%, best loss 1.120617
+epoch  19 with lr=5.00e-02
+total time elapsed: 0h 23m 15s , best accuracy: 63.74%, best loss 1.120617
+epoch  20 with lr=5.00e-02
+total time elapsed: 0h 24m 20s , best accuracy: 63.74%, best loss 1.120617
+epoch  21 with lr=5.00e-02
+total time elapsed: 0h 25m 25s , best accuracy: 63.74%, best loss 1.120617
+epoch  22 with lr=5.00e-02
+total time elapsed: 0h 26m 30s , best accuracy: 63.74%, best loss 1.120617
+epoch  23 with lr=5.00e-02
+total time elapsed: 0h 27m 34s , best accuracy: 63.74%, best loss 1.120617
+epoch  24 with lr=5.00e-03
+total time elapsed: 0h 28m 58s , best accuracy: 80.85%, best loss 0.600536
+epoch  25 with lr=5.00e-03
+total time elapsed: 0h 30m 23s , best accuracy: 85.29%, best loss 0.464044
+epoch  26 with lr=5.00e-03
+total time elapsed: 0h 31m 27s , best accuracy: 85.29%, best loss 0.464044
+epoch  27 with lr=5.00e-03
+total time elapsed: 0h 32m 32s , best accuracy: 85.29%, best loss 0.464044
+epoch  28 with lr=5.00e-03
+total time elapsed: 0h 33m 57s , best accuracy: 90.18%, best loss 0.363440
+epoch  29 with lr=5.00e-03
+total time elapsed: 0h 35m 1s , best accuracy: 90.18%, best loss 0.363440
+epoch  30 with lr=5.00e-03
+total time elapsed: 0h 36m 6s , best accuracy: 90.18%, best loss 0.363440
+epoch  31 with lr=5.00e-03
+total time elapsed: 0h 37m 11s , best accuracy: 90.18%, best loss 0.363440
+epoch  32 with lr=5.00e-03
+total time elapsed: 0h 38m 16s , best accuracy: 90.18%, best loss 0.363440
+epoch  33 with lr=5.00e-03
+total time elapsed: 0h 39m 20s , best accuracy: 90.18%, best loss 0.363440
+epoch  34 with lr=5.00e-03
+total time elapsed: 0h 40m 26s , best accuracy: 90.18%, best loss 0.363440
+epoch  35 with lr=5.00e-04
+total time elapsed: 0h 41m 51s , best accuracy: 93.21%, best loss 0.227107
+epoch  36 with lr=5.00e-04
+total time elapsed: 0h 43m 16s , best accuracy: 93.67%, best loss 0.207973
+epoch  37 with lr=5.00e-04
+total time elapsed: 0h 44m 20s , best accuracy: 93.67%, best loss 0.207973
+epoch  38 with lr=5.00e-04
+total time elapsed: 0h 45m 25s , best accuracy: 93.67%, best loss 0.207973
+epoch  39 with lr=5.00e-04
+total time elapsed: 0h 46m 49s , best accuracy: 93.99%, best loss 0.199120
+epoch  40 with lr=5.00e-04
+total time elapsed: 0h 47m 54s , best accuracy: 93.99%, best loss 0.199120
+epoch  41 with lr=5.00e-04
+total time elapsed: 0h 48m 59s , best accuracy: 93.99%, best loss 0.199120
+epoch  42 with lr=5.00e-04
+total time elapsed: 0h 50m 3s , best accuracy: 93.99%, best loss 0.199120
+epoch  43 with lr=5.00e-04
+total time elapsed: 0h 51m 29s , best accuracy: 95.05%, best loss 0.179847
+epoch  44 with lr=5.00e-04
+total time elapsed: 0h 52m 33s , best accuracy: 95.05%, best loss 0.179847
+epoch  45 with lr=5.00e-04
+total time elapsed: 0h 53m 38s , best accuracy: 95.05%, best loss 0.179847
+epoch  46 with lr=5.00e-04
+total time elapsed: 0h 54m 43s , best accuracy: 95.05%, best loss 0.179847
+epoch  47 with lr=5.00e-04
+total time elapsed: 0h 55m 59s , best accuracy: 95.05%, best loss 0.179780
+epoch  48 with lr=5.00e-04
+total time elapsed: 0h 57m 3s , best accuracy: 95.05%, best loss 0.179780
+epoch  49 with lr=5.00e-04
+total time elapsed: 0h 58m 8s , best accuracy: 95.05%, best loss 0.179780
+epoch  50 with lr=5.00e-04
+total time elapsed: 0h 59m 13s , best accuracy: 95.05%, best loss 0.179780
+epoch  51 with lr=5.00e-04
+total time elapsed: 1h 0m 30s , best accuracy: 95.05%, best loss 0.175466
+epoch  52 with lr=5.00e-04
+total time elapsed: 1h 1m 34s , best accuracy: 95.05%, best loss 0.175466
+epoch  53 with lr=5.00e-04
+total time elapsed: 1h 2m 39s , best accuracy: 95.05%, best loss 0.175466
+epoch  54 with lr=5.00e-04
+total time elapsed: 1h 3m 44s , best accuracy: 95.05%, best loss 0.175466
+epoch  55 with lr=5.00e-04
+total time elapsed: 1h 4m 49s , best accuracy: 95.05%, best loss 0.175466
+epoch  56 with lr=5.00e-04
+total time elapsed: 1h 5m 54s , best accuracy: 95.05%, best loss 0.175466
+epoch  57 with lr=5.00e-04
+total time elapsed: 1h 6m 59s , best accuracy: 95.05%, best loss 0.175466
+epoch  58 with lr=5.00e-05
+total time elapsed: 1h 8m 24s , best accuracy: 95.33%, best loss 0.159039
+epoch  59 with lr=5.00e-05
+total time elapsed: 1h 9m 27s , best accuracy: 95.33%, best loss 0.159039
+epoch  60 with lr=5.00e-05
+total time elapsed: 1h 10m 53s , best accuracy: 95.49%, best loss 0.155922
+epoch  61 with lr=5.00e-05
+total time elapsed: 1h 11m 56s , best accuracy: 95.49%, best loss 0.155922
+epoch  62 with lr=5.00e-05
+total time elapsed: 1h 13m 20s , best accuracy: 95.80%, best loss 0.151347
+epoch  63 with lr=5.00e-05
+total time elapsed: 1h 14m 44s , best accuracy: 95.91%, best loss 0.146661
+epoch  64 with lr=5.00e-05
+total time elapsed: 1h 15m 48s , best accuracy: 95.91%, best loss 0.146661
+epoch  65 with lr=5.00e-05
+total time elapsed: 1h 17m 2s , best accuracy: 95.95%, best loss 0.146661
+epoch  66 with lr=5.00e-05
+total time elapsed: 1h 18m 6s , best accuracy: 95.95%, best loss 0.146661
+epoch  67 with lr=5.00e-05
+total time elapsed: 1h 19m 11s , best accuracy: 95.95%, best loss 0.146661
+epoch  68 with lr=5.00e-05
+total time elapsed: 1h 20m 16s , best accuracy: 95.95%, best loss 0.146661
+epoch  69 with lr=5.00e-05
+total time elapsed: 1h 21m 20s , best accuracy: 95.95%, best loss 0.146661
+finished
+----- MODEL , WideResnet 28-10, EPOCHS=70, OPTIM=SGD -------
