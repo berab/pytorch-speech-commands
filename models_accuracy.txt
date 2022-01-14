@@ -1,0 +1,17 @@
+----- MODEL VGG19_BN, EPOCHS=70, OPTIM=SGD -------
+total time elapsed: 1h 24m 32s , best accuracy: 97.30%, best loss 0.100311
+
+----- MODEL VGG19_BN, EPOCHS=10, OPTIM=SGD -------
+total time elapsed: 0h 13m 4s , best accuracy: 90.24%, best loss 0.332713
+
+----- MODEL VGG19_BN, EPOCHS=70, OPTIM=SGD, WITH MIXUP -------
+total time elapsed: 0h 12m 30s , best accuracy: 84.61%, best loss 0.683579
+
+----- MODEL WideResNet 28-10, EPOCHS=70, OPTIM=SGD -------
+total time elapsed: 2h 3m 41s , best accuracy: 97.70%, best loss 0.099414
+
+----- MODEL WideResNet 28-10, EPOCHS=10, OPTIM=SGD -------
+total time elapsed: 2h 2m 22s , best accuracy: 97.79%, best loss 0.094470
+
+----- MODEL VGG19_BN, EPOCHS=70, OPTIM=SGD, LR=0.05 -------
+total time elapsed: 1h 21m 20s , best accuracy: 95.95%, best loss 0.146661
