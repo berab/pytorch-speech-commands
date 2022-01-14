@@ -2,8 +2,8 @@ Convolutional neural networks for [Google speech commands data set](https://rese
 with [PyTorch](http://pytorch.org/).
 
 #First to do
-> \$ pip install -r requirements.txt
-> \% ./download_speech_commands_dataset.sh
+> \$ pip install -r requirements.txt  
+> \$ ./download_speech_commands_dataset.sh  
 
 #Training and evaluation
 > \$ ./train.sh
